@@ -6,3 +6,10 @@ function convertToF(celsius) {
   convertToF(30);
 
   console.log(convertToF(30));
+
+  function factorialize(num) {
+      console.log(num);
+    return num;
+  }
+  
+  factorialize(5)
