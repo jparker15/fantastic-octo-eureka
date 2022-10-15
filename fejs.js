@@ -22,10 +22,14 @@
  //Return the length of the longest word in the provided sentence.
   function findLongestWordLength(str) {
     str = str.split(" ");
-    let longest = 0;
-    for(let i)
+    let longest = '';
+    for(let i = 0; i < str.length; i++){
+      if(str[i].length > longest.length){
+        longest = str[i]
+      }
+    }
 
-    console.log(str.split(" "));
+    console.log(longest);
     return str.length;
   }
   
