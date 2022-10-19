@@ -23,6 +23,21 @@
 //   reverseString("hello");
 
 function largestOfFour(arr) {
+    // console.log(arr[0].length);
+    let dem = [];
+
+    for(let i = 0; i < arr.length; i++){
+
+      for(let j = 0; j < arr[0].length; j++){
+
+          let currentNum = arr[i][j];
+          console.log(currentNum);
+          dem.push(currentNum);
+          break
+          
+        }
+      }
+      console.log(dem);
       return arr;
     }
     
