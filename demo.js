@@ -27,15 +27,16 @@ function largestOfFour(arr) {
     let dem = [];
 
     for(let i = 0; i < arr.length; i++){
+      let max = arr[i][0];
 
       for(let j = 0; j < arr[0].length; j++){
+          currentNum = arr[i][j];
 
-          let currentNum = arr[i][j];
-          console.log(currentNum);
-          dem.push(currentNum);
-          break
+          if (max < currentNum) max = currentNum; 
+
           
         }
+        dem.push(max);
       }
       console.log(dem);
       return arr;
