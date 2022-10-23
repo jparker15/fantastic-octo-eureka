@@ -49,11 +49,9 @@ function confirmEnding(str, target) {
     let demo = [];
     
     for(let i = target.length; i > 0; i--){
-      console.log(arr[i]);
       demo.push(arr[i]);
     }
 
-    console.log(demo.reverse());
     
 }
 
