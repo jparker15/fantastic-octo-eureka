@@ -44,15 +44,21 @@
     
 //     largestOfFour([[4, 5, 1, 3], [13, 27, 18, 26], [32, 35, 37, 39], [1000, 1001, 857, 1]]);
 
-function confirmEnding(str, target) {
-    let arr = str.split("");
-    let demo = [];
+// function confirmEnding(str, target) {
+//     let arr = str.split("");
+//     let demo = [];
     
-    for(let i = target.length; i > 0; i--){
-      demo.push(arr[i]);
-    }
+//     for(let i = target.length; i > 0; i--){
+//       demo.push(arr[i]);
+//     }
 
     
+// }
+
+// confirmEnding("Congratulation", "on")
+
+function repeatStringNumTimes(str, num) {
+  return str;
 }
 
-confirmEnding("Congratulation", "on")
+repeatStringNumTimes("abc", 3);
