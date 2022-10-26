@@ -30,7 +30,7 @@
 //       let max = arr[i][0];
 
 //       for(let j = 0; j < arr[0].length; j++){
-//           currentNum = arr[i][j];
+//          let currentNum = arr[i][j];
 
 //           if (max < currentNum) max = currentNum; 
 
@@ -39,13 +39,26 @@
 //         dem.push(max);
 //       }
 //       console.log(dem);
-//       return arr;
+//       return dem;
 //     }
     
 //     largestOfFour([[4, 5, 1, 3], [13, 27, 18, 26], [32, 35, 37, 39], [1000, 1001, 857, 1]]);
 
-function confirmEnding(str, target) {
+// function confirmEnding(str, target) {
+//     let arr = str.split("");
+//     let demo = [];
+    
+//     for(let i = target.length; i > 0; i--){
+//       demo.push(arr[i]);
+//     }
+
+    
+// }
+
+// confirmEnding("Congratulation", "on")
+
+function repeatStringNumTimes(str, num) {
   return str;
 }
 
-confirmEnding("Bastian", "n");
+repeatStringNumTimes("abc", 3);
